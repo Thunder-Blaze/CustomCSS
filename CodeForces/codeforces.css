@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    background: #080812;
+    color: #ddf;
+    font-family: Rubik,sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0.03rem;
+}
+a:link,a,a:visited,a:active {
+    color: #00b2ff;
+/*     font-weight: 200; */
+    position: relative;
+    text-decoration: none;
+}
+.roundbox.borderTopRound.borderBottomRound {
+    background: #121220;
+    border: none;
+    color: #ddf;
+}
+.button-up {
+    background: none !important;
+    & i {
+        line-height: 2.4;
+    }
+}
+.menu-list li a {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.menu-list.main-menu-list .current {
+    border-color: #B200FF;
+}
+.second-level-menu {
+    position: sticky;
+    top: 0;
+    width: fit-content;
+    border-radius: 0 0 20px 0;
+    z-index: 11;
+    background: #080812;
+    padding: 12px;
+}
+.second-level-menu-list {
+    height: unset;
+}
+.second-level-menu li a {
+    color: white;
+}
+.second-level-menu .backLava {
+    filter: invert(1) sepia(95%) saturate(6868%) hue-rotate(274deg) brightness(108%) contrast(119%);
+}
+.footer-logo-div {
+    display: none;
+}
+.title-photo div {
+    border-radius: 46px;
+    border: none !important;
+    background: #fff2;
+}
+.title-photo div img {
+    border-radius: 40px;
+}
+.roundbox.sidebox.borderTopRound {
+    background: #121220;
+    border-color: #121220;
+    color: #ddf;
+}
+.roundbox .dark {
+    background: #161632;
+    color: #ddf;
+}
+.roundbox .bottom-links {
+    background: #161632;
+    color: #ddf;
+}
+.roundbox.sidebox.borderTopRound .caption.titled {
+    color: #b200fF;
+}
+.left a[style="color: black"]{
+    color: #b200FF !important;
+}
+#sidebar .roundbox.borderTopRound.borderBottomRound {
+    background: rebeccapurple !important;
+    padding: 1px 4px !important;
+}
+.roundbox .bottom-links, .roundbox .titled, .roundbox .rtable td, .roundbox .rtable th {
+    border-color: #446;
+}
+
+
+
+
+.datatable {
+    & .ilt, & .irt, & .lb, & .rt, & .lt, & .rb {
+        display: none !important;
+    }
+}
+.datatable > div{
+    margin: 0 !important;
+    padding: 0.2em 0.2em !important;
+    border: 1px solid #446;
+    background: #121220 !important;
+}
+.datatable td, .datatable th {
+    border-color: #446;
+}
+.datatable .dark {
+    background: #161632;
+}
+.highlighted-row td, .highlighted-row th {
+    background: #8900f166 !important;
+}
+.status-frame-datatable .highlighted-row td, .highlighted-row th {
+    background: #161628 !important;
+}
+
+
+
+
+.verdict-rejected {
+    color: #ff6aff;
+}
+.verdict-accepted, .welldone, .cell-accepted {
+    color: lime;
+}
+.verdict-failed, .cell-rejected {
+    color: #f91554;
+    font-weight: bold;
+}
+
+
+
+
+div.ttypography, .problem-statement {
+    color: inherit;
+    font-family: "Rubik","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.ttypography a:hover, div.ttypography a:focus {
+    background-color: #00F7;
+}
+.MathJax span {
+    color: #fff;
+}
+.problem-statement .test-example-line-even {
+    background: #121220 !important;
+    color: greenyellow;
+}
+.problem-statement .test-example-line-odd {
+    background: #161628 !important;
+    color: greenyellow;
+}
+
+/* .problem-statement .test-example-line-even:hover, .problem-statement .test-example-line-odd:hover {
+    background: #080812 !important;
+} */
+
+.problem-statement .sample-tests pre {
+    background: #080812;
+    color: greenyellow;
+    border-radius: 8px;
+}
+.problem-statement .sample-test .input, .problem-statement .sample-test .output {
+    margin-top: 1em;
+    border-radius: 6px;
+}
+.input-output-copier {
+    border-radius: 4px;
+    background: #FFF;
+    border: none;
+    color: #8900FF !important;
+    font-weight: bold
+}
+
+
+
+#pageContent div.datatable{
+    background: none !important;
+}
+#header {
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    height: 0;
+    z-index: 1
+}
+#header div:first-child {
+    display: none;
+}
+.lang-chooser {
+    padding-top: 12px;
+    padding-right: 28px;
+    padding-left: 8px;
+}
+.lang-chooser div:first-child {
+    display: none;
+}
+#footer {
+    display: none;
+}
+
+
+
+.rated-user{
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+}
+.user-black {color: #FFF !important;}
+.user-gray {color: #888 !important;}
+.user-green {color: lime !important;}
+.user-cyan {color: cyan !important;}
+.user-violet {color: #B200FF !important;}
+.user-blue {color: #1155FF !important;}
+.user-orange {color: orange !important;}
+.user-red {color: #F91554 !important;}
+.user-4000, .user-admin {color: #FFF !important;}
+.user-legendary:first-letter {
+    color: #FFF !important;
+}
+
+
+
+ul.options {
+    background: rebeccapurple;
+}
+button, input[type="submit"]{
+	padding: 0.4em 1.2em !important;
+	cursor: pointer;
+}
+button, input[type="submit"], .setting-value .SumoSelect>.CaptionCont {
+    background: #224;
+    border: none !important;
+    outline: none !important;
+    color: #ddf;
+    border-radius: 4px;
+}
+input[type="text"], .search {
+    background: #224;
+    border: none !important;
+    outline: none !important;
+    color: #ddf;
+    border-radius: 4px;
+    padding: 3px 4px;
+}
+.problems .accepted-problem td.id {
+    border-left-color: #055 !important;
+}
+.problems .accepted-problem td.act {
+    background: #055 !important;
+}
+
+#facebox .popup > * {
+    background: #050520;
+}
+#facebox .popup .source-popup {
+    scrollbar-width: none;
+}
+#facebox .popup pre {
+    background: #101024 !important;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    margin: 1em 0;
+    & .pln {
+        color: white !important;
+    }
+    & .pun {
+        color: rgb(206,141,141) !important;
+    }
+    & .lit {
+        color: aqua !important;
+    }
+    & .kwd {
+        color: yellow !important;
+    }
+    & .typ {
+        color: #B200FF !important;
+    }
+    & .com {
+        color: #F91554 !important;
+    }
+    & .str {
+        color: #1166FF !important;
+    }
+}
+.roundbox.highlight-blue.borderTopRound.borderBottomRound {
+	background: #101024 !important;
+}
+
+.table-form .submit:not(:disabled) {
+    color: #ddf;
+}
+#tooltip {
+    color: black !important;
+    border-radius: 6px;
+    & a {
+        color: #8900FF;
+    }
+}
