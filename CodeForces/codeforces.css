@@ -301,3 +301,21 @@ input[type="text"], .search {
         color: #8900FF;
     }
 }
+rect.day[data-items]{
+    fill:#040812 !important;
+}
+rect.day[data-items="1"]{
+    fill:#450080 !important;
+}
+rect.day[data-items="2"]{
+    fill:#6000b3 !important;
+}
+rect.day[data-items="3"]{
+    fill:#6e00cc !important;
+}
+rect.day[data-items="4"]{
+    fill:#8900ff !important;
+}
+rect.day{
+    rx: 3px;
+}
