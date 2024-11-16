@@ -12,10 +12,11 @@ a:link,a,a:visited,a:active {
     position: relative;
     text-decoration: none;
 }
-.roundbox.borderTopRound.borderBottomRound {
+.roundbox.borderTopRound.borderBottomRound, .roundbox {
     background: #121220;
     border: none;
     color: #ddf;
+    border-radius: 8px;
 }
 .button-up {
     background: none !important;
@@ -95,6 +96,11 @@ a:link,a,a:visited,a:active {
         display: none !important;
     }
 }
+
+.roundbox-lt, .roundbox-rt, .roundbox-rb, .roundbox-lb {
+	display: none;
+}
+
 .datatable > div{
     margin: 0 !important;
     padding: 0.2em 0.2em !important;
