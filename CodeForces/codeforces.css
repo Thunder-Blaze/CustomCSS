@@ -354,3 +354,11 @@ img[src="//codeforces.com/codeforces.org/s/51889/images/icons/user.png"] {
     height: 3rem;
     margin-top: -0.5rem;
 }
+
+.problems .rejected-problem td.act {
+    background: #501 !important;
+}
+
+.problems .rejected-problem td.id {
+    border-left: 6px solid #501 !important
+}
