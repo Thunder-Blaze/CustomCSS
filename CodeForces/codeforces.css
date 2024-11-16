@@ -319,3 +319,16 @@ rect.day[data-items="4"]{
 rect.day{
     rx: 3px;
 }
+
+
+div.ttypography h2 {
+    color: #ccf;
+}
+
+img {
+    border-radius: 1rem;
+}
+
+.tex-graphics {
+    filter: invert(100%);
+}
