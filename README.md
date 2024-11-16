@@ -7,7 +7,7 @@ A Repository to Put My Custom CSS Files
 3. [Animepahe](#Animepahe)
 
 #### Codeforces
-<img src="./CodeForce/Codeforces.png">
+<img src="./CodeForces/Codeforces.png">
 
 #### Twoseven
 <img src="./TwoSeven/Twoseven.png">
