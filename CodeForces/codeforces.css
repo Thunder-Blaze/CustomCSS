@@ -62,9 +62,9 @@ a:link,a,a:visited,a:active {
     border-radius: 40px;
 }
 .roundbox.sidebox.borderTopRound {
-    background: #121220;
-    border-color: #121220;
-    color: #ddf;
+    background: #121220 !important;
+    border-color: #121220 !important;
+    color: #ddf !important;
 }
 .roundbox .dark {
     background: #161632;
