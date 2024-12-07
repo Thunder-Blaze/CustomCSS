@@ -62,9 +62,9 @@ a:link,a,a:visited,a:active {
     border-radius: 40px;
 }
 .roundbox.sidebox.borderTopRound {
-    background: #121220;
-    border-color: #121220;
-    color: #ddf;
+    background: #121220 !important;
+    border-color: #121220 !important;
+    color: #ddf !important;
 }
 .roundbox .dark {
     background: #161632;
@@ -260,7 +260,7 @@ input[type="text"], .search {
 #facebox .popup .source-popup {
     scrollbar-width: none;
 }
-#facebox .popup pre {
+#facebox .popup pre, pre#program-source-text {
     background: #101024 !important;
     padding: 0.2em 0.4em;
     border-radius: 4px;
@@ -361,4 +361,48 @@ img[src="//codeforces.com/codeforces.org/s/51889/images/icons/user.png"] {
 
 .problems .rejected-problem td.id {
     border-left: 6px solid #501 !important
+}
+
+.file .text {
+    background: #080818;
+}
+
+select {
+    background: rebeccapurple;
+    color: white;
+    border-radius: 6px;
+}
+#editor {
+    border-radius: 6px;
+    background-color: #101024 !important;
+/*     color: #eef !important; */
+    border: none !important;
+    margin-bottom: 1rem;
+}
+.ace_gutter {
+    border-radius: 6px;
+    background-color: #202034 !important;
+    color: #eef !important;
+}
+.ace-chrome .ace_cursor {
+    color: #eef !important;
+}
+.ace_gutter-active-line {
+    background-color: #101024 !important;
+}
+#editor span {
+    filter: invert(1);
+}
+.ace-chrome .ace_marker-layer .ace_selection {
+    background: #FFF2;
+}
+.sidebar-menu ul li {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #eaeaea;
+    background-color: #eaeaea;
+}
+.sidebar-menu ul li::marker {
+    color: #101024;
 }
