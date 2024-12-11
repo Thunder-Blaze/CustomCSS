@@ -260,7 +260,7 @@ input[type="text"], .search {
 #facebox .popup .source-popup {
     scrollbar-width: none;
 }
-#facebox .popup pre, pre#program-source-text {
+#facebox .popup pre, pre#program-source-text, div.spoiler-content pre code {
     background: #101024 !important;
     padding: 0.2em 0.4em;
     border-radius: 4px;
@@ -405,4 +405,48 @@ select {
 }
 .sidebar-menu ul li::marker {
     color: #101024;
+}
+
+.spoiler-content {
+  border: #00B2FF solid 2px;
+  background-color: #161632;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+div.spoiler-content pre code{
+  background: #161632 !important;
+}
+
+html body div#body div div#sidebar div.roundbox.sidebox.sidebar-menu.borderTopRound ul li {
+  background: #663399;
+  border: transparent;
+  margin-bottom: 0.7rem;
+  a{
+    color: #DCDBFE !important;  
+  }
+
+}
+
+html body div#body div div#sidebar div.roundbox.sidebox.borderTopRound div form.submitForm table.table-form.no-autofocus tbody tr td select {
+  border: transparent;
+}
+
+html body div#body div div#sidebar div.roundbox.sidebox.borderTopRound div form.submitForm table.table-form.no-autofocus tbody tr td input{
+  background: #663399;
+  border: transparent;
+
+}
+
+html body div#body div div#sidebar div.roundbox.sidebox.sidebar-menu.borderTopRound ul li span img.delete-resource-link{
+  filter: invert(100%);
+}
+html body div#body div div#pageContent.content-with-sidebar div.problemindexholder div.ttypography div.problem-statement div.sample-tests div.sample-test div.input div.title div#id0004290161355996602.input-output-copier{
+  background:00AAFF;
+  border: transparent;
+}
+html body div#body div div#pageContent.content-with-sidebar div.problemindexholder div.ttypography div.problem-statement div.sample-tests div.sample-test div.output div.title div#id0027082153091413075.input-output-copier{
+  background:00AAFF;
+  border: transparent;
 }
